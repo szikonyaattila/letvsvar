@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "watch": true,
+        "outDir": "./js",
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin",
+                "alwaysShowRuleFailuresAsWarnings": false,
+                "ignoreDefinitionFiles": true,
+                "configFile": "tslint.json",
+                "suppressWhileTypeErrorsPresent": false,
+                "mockTypeScriptVersion": false
+            }
+        ]
+    },
+    "include": [
+        "ts/**/*"
+    ],
+    "exclude": [
+        "node_modules/**/*",
+        "**/node_modules/*"
+    ]
+}
