@@ -6,21 +6,21 @@ export default class Content {
         function varTest() {
             var x = 31;
             if (true) {
-                var x = 71;  // ugyanaz a változó!
-                alert(x);  // 71
+                var x = 71; 
+                alert(x);  
                 res.write("<p>"+ x +"</p>");
             }
-            alert(x);  // 71
+            alert(x);
             res.write("<p>"+ x +"</p>");
         }
         function letTest() {   
             let x = 31;   
             if (true) {   
-                let x = 71;  // másik változó   
-                alert(x); // 71 
+                let x = 71; 
+                alert(x);  
                 res.write("<p>"+ x +"</p>");   
             }   
-                alert(x);  // 31
+                alert(x);
                 res.write("<p>"+ x +"</p>");   
         }    
         res.write("<a href='https://github.com/szikonyaattila/letvsvar/' target='_blank'>" +
