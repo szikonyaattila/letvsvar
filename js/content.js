@@ -3,11 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 class Content {
     content(req, res) {
         res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-        var a = 31;
-        var b = true;
+        let a = 31;
+        let b = true;
         if (b) 
         {
-               var x = 71;   
+               let x = 71;   
                res.write("<p>a érték:"+ x +"</p>");
         }
         res.write("<p>a érték:"+ x +"</p>");
