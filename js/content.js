@@ -6,19 +6,9 @@ class Content {
         
         var a = 31;
         res.write("<p>decimal érték: " + a + "</p>");
-         if (true) {
-                 a = 71;   
-                res.write("<p>decimal érték: " + a + "</p>");
-            }
         
         let b =32;
         res.write("<p>decimal érték: " + b + "</p>");
-        if (true) {
-                 b = 72;   
-                res.write("<p>decimal érték: " + b + "</p>");
-            }
-        res.write("<p>decimal érték: " + a + "</p>");
-        res.write("<p>hex érték: " + b + "</p>");
         
         res.write("<a href='https://github.com/szikonyaattila/letvsvar/' target='_blank'>" +
             "https://github.com/szikonyaattila/letvsvar//</a><br>");
