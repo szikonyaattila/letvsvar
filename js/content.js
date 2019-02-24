@@ -9,6 +9,12 @@ class Content {
         
         let b =32;
         res.write("<p>decimal érték: " + b + "</p>");
+        if(true)
+        {
+            b = 33;
+            res.write("<p>decimal érték: " + b + "</p>");
+        }
+        res.write("<p>decimal érték: " + b + "</p>");
         
         res.write("<a href='https://github.com/szikonyaattila/letvsvar/' target='_blank'>" +
             "https://github.com/szikonyaattila/letvsvar//</a><br>");
