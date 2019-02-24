@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 class Content {
     content(req, res) {
         res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-        let decimal = 6;
+        var decimal = 6;
         let hex = 0xf00d;
-        let binary = 0b1010;
+        var binary = 0b1010;
         let octal = 0o744;
         res.write("<p>decimal érték: " + decimal + "</p>");
         res.write("<p>hex érték: " + hex + "</p>");
