@@ -2,9 +2,7 @@
 
 export default class Content {
 
-    public content(req: http.IncomingMessage, res: http.ServerResponse): void {
-
-      
+    public content(req: http.IncomingMessage, res: http.ServerResponse): void {      
         function varTest() {
             var x = 31;
             if (true) {
@@ -24,9 +22,7 @@ export default class Content {
             }   
                 alert(x);  // 31
                 res.write("<p>"+ x +"</p>");   
-        }
-
-        
+        }    
         res.write("<a href='https://github.com/szikonyaattila/letvsvar/' target='_blank'>" +
             "https://github.com/szikonyaattila/letvsvar/</a><br>");
         res.end();
