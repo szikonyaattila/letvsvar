@@ -4,7 +4,7 @@ class Content {
     content(req, res) {
         res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
         
-        res.write("<h1>Egy változó létre hozása var-al és változtatásával</h1>");
+        res.write("<h1>Egy változó létre hozása var-al és változtatása varral</h1>");
         var a = 31;
         res.write("<p>A változó értéke: " + a + "</p>");
         if(true)
@@ -14,7 +14,7 @@ class Content {
         }
         res.write("<p>A változó értéke az if után: " + a + "</p>");
         
-        res.write("<h1>Egy változó létre hozása let-tel és változtatásával</h1>");
+        res.write("<h1>Egy változó létre hozása let-tel és változtatása lettel</h1>");
         let b =32;
         res.write("<p>A változó értéke: " + b + "</p>");
         if(true)
