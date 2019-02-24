@@ -11,7 +11,7 @@ class Content {
         res.write("<p>decimal érték: " + b + "</p>");
         if(true)
         {
-            b = 33;
+            let b = 33;
             res.write("<p>decimal érték: " + b + "</p>");
         }
         res.write("<p>decimal érték: " + b + "</p>");
