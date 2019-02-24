@@ -1,8 +1,7 @@
-﻿import * as http from "http";
-
-export default class Content {
-
-    public content(req: http.IncomingMessage, res: http.ServerResponse): void {      
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Content {
+    content(req, res) {
         function varTest() {
             var x = 31;
             if (true) {
@@ -28,3 +27,6 @@ export default class Content {
         res.end();
     }
 }
+exports.default = Content;
+//# sourceMappingURL=content.js.map
+
