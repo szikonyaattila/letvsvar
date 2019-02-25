@@ -11,7 +11,7 @@ export default class Content {
     for(let i = 0; i<5;i++){
        console.log(i)
     }
-    console.log(i)
+    console.log(i) // i=undefined
         
         res.write("<a href='https://github.com/szikonyaattila/letvsvar/' target='_blank'>" +
             "https://github.com/szikonyaattila/letvsvar/</a><br>");
